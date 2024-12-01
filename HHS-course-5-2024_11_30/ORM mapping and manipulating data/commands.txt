@@ -1,0 +1,5 @@
+// add new migrations
+dotnet-ef migrations add Initial --project HHS_ORM
+
+//apply migrations to db
+dotnet-ef database update --project HHS_ORM
